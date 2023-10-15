@@ -1,0 +1,59 @@
+\documentclass[uplatex, onecolumn, 10pt]{jsarticle}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{latexsym}
+\usepackage{bmpsize}
+\usepackage{url}
+\usepackage{comment}
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+\begin{document}
+
+\title{\vspace{-40mm}\bf{\LARGE{ゼミ報告書}}}
+\author{\vspace{-40mm}木村 優哉 67200203}
+\date{2023-09-11 Mon}
+\maketitle
+
+
+\section{今日までにやったこと}
+
+\subsection*{研究関連}
+\begin{itemize}
+	\item プロンプトの修正
+	\item 実際に抽出した文字を対象に属性を判定
+	\item 形態素解析で明確に誤検知である文字を除外
+	\item MeCab から fugashi へ移行
+	\item unidic-lite から unidic へ辞書を移行
+\end{itemize}
+
+\subsection*{その他}
+\begin{itemize}
+	\item ロボコンミーティング参加・実装
+	\item 産学連携ミーティング
+	\item C++の勉強
+\end{itemize}
+
+
+\section{次までにやること}
+
+\subsection*{研究関連}
+\begin{itemize}
+	\item 実装した機能の連結
+	\item 文字抽出および付加属性のデータ出力
+	\item 誤検知除外機能の拡大
+	\item DeblurGAN を適用
+	\item Llama2 の論文を読む
+\end{itemize}
+
+\subsection*{その他}
+\begin{itemize}
+	\item ロボコンミーティング参加・実装
+	\item 産学連携ミーティング
+	\item C++ の勉強
+\end{itemize}
+
+\end{document}

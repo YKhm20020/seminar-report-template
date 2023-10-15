@@ -1,0 +1,54 @@
+\documentclass[uplatex, onecolumn, 10pt]{jsarticle}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{latexsym}
+\usepackage{bmpsize}
+\usepackage{url}
+\usepackage{comment}
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+\begin{document}
+
+\title{\vspace{-40mm}\bf{\LARGE{ゼミ報告書}}}
+\author{\vspace{-40mm}木村 優哉 67200203}
+\date{2023-10-10 Tue}
+\maketitle
+
+
+\section{今日までにやったこと}
+
+\subsection*{研究関連}
+\begin{itemize}
+	\item 黒い領域のみを明るくする画像処理の実装（精度↓）
+	\item DeblurGANv2の適用
+\end{itemize}
+
+\subsection*{その他}
+\begin{itemize}
+	\item ロボコン地区大会
+	\item ロボコンミーティング参加・実装
+	\item 産学連携ミーティング
+	\item Next.jsの勉強
+\end{itemize}
+
+
+\section{次までにやること}
+
+\subsection*{研究関連}
+\begin{itemize}
+	\item DeblurGANv2の適用の続き
+	\item DeblurGANがCPUで動作するかの確認
+\end{itemize}
+
+\subsection*{その他}
+\begin{itemize}
+	\item ロボコンミーティング参加・実装
+	\item 産学連携ミーティング
+	\item Next.js, Laravel の勉強
+\end{itemize}
+
+\end{document}

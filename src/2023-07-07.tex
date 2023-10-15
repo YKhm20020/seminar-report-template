@@ -1,0 +1,53 @@
+\documentclass[uplatex, onecolumn, 10pt]{jsarticle}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{latexsym}
+\usepackage{bmpsize}
+\usepackage{url}
+\usepackage{comment}
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+\begin{document}
+
+\title{\vspace{-40mm}\bf{\LARGE{ゼミ報告書}}}
+\author{\vspace{-40mm}木村 優哉 67200203}
+\date{2023-07-07 Fri}
+\maketitle
+
+
+\section{今日までにやったこと}
+
+\subsection*{研究関連}
+\begin{itemize}
+	\item 英論探し
+	\item 下線部検出の手法を調査
+\end{itemize}
+
+\subsection*{その他}
+\begin{itemize}
+	\item ロボコンミーティング参加・実装
+	\item 中武さんとラベル付けについてのすり合わせ
+	\item C++, Laravelの勉強
+\end{itemize}
+
+
+\section{次までにやること}
+
+\subsection*{研究関連}
+\begin{itemize}
+	\item 下線部検出機能を実装
+	\item 文字が誤って矩形領域として検出されないよう修正
+\end{itemize}
+
+\subsection*{その他}
+\begin{itemize}
+	\item ロボコンミーティング参加・実装
+	\item 英論探し・翻訳
+	\item C++, Laravelの勉強
+\end{itemize}
+
+\end{document}
